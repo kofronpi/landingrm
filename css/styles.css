@@ -326,6 +326,7 @@ form .group label {
     transform: translateY(-50%);
     position: absolute;
     top: 50%
+    style="background-color: #F2F3F5;"
 }
 
 .center-x,
@@ -829,8 +830,8 @@ button {
 }
 
 .logo {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     z-index: 2;
     top: 0
 }
@@ -838,7 +839,7 @@ button {
 .logo img {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
-    width: 41px
+    width: 144px
 }
 
 .logo:hover img {
