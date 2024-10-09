@@ -1,43 +1,12 @@
 @font-face {
-    font-family: 'colfax-light';
-    src: url("../fonts/colfax-light.woff") format("woff"), url("../fonts/colfax-light.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100 900;
+    src: url('https://fonts.gstatic.com/s/inter/v3/UcCIfJvCU7j5jtMgy5eoEJw.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'colfax-medium';
-    src: url("../fonts/colfax-medium.woff") format("woff"), url("../fonts/colfax-medium.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'colfax-bold';
-    src: url("../fonts/colfax-bold.woff") format("woff"), url("../fonts/colfax-bold.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'colfax-light';
-    src: url("../fonts/colfax-light.woff") format("woff"), url("../fonts/colfax-light.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'colfax-medium';
-    src: url("../fonts/colfax-medium.woff") format("woff"), url("../fonts/colfax-medium.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'colfax-bold';
-    src: url("../fonts/colfax-bold.woff") format("woff"), url("../fonts/colfax-bold.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal
+body {
+    font-family: 'Inter', sans-serif;
 }
 
 * {
@@ -199,22 +168,19 @@ input:-webkit-autofill {
 }
 
 @font-face {
-    font-family: 'colfax-light';
-    src: url("../fonts/colfax-light.woff") format("woff"), url("../fonts/colfax-light.woff2") format("woff2");
+    font-family: 'Inter';
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'colfax-medium';
-    src: url("../fonts/colfax-medium.woff") format("woff"), url("../fonts/colfax-medium.woff2") format("woff2");
+    font-family: 'Inter';
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'colfax-bold';
-    src: url("../fonts/colfax-bold.woff") format("woff"), url("../fonts/colfax-bold.woff2") format("woff2");
+    font-family: 'Inter';
     font-weight: normal;
     font-style: normal
 }
@@ -390,22 +356,19 @@ input:-webkit-autofill {
 }
 
 @font-face {
-    font-family: 'colfax-light';
-    src: url("../fonts/colfax-light.woff") format("woff"), url("../fonts/colfax-light.woff2") format("woff2");
+    font-family: 'Inter';
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'colfax-medium';
-    src: url("../fonts/colfax-medium.woff") format("woff"), url("../fonts/colfax-medium.woff2") format("woff2");
+    font-family: 'Inter';
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'colfax-bold';
-    src: url("../fonts/colfax-bold.woff") format("woff"), url("../fonts/colfax-bold.woff2") format("woff2");
+    font-family: 'Inter';
     font-weight: normal;
     font-style: normal
 }
@@ -587,7 +550,7 @@ h2,
 .h2 {
     letter-spacing: -1px;
     font-weight: normal;
-    font-family: "colfax-light", sans-serif;
+    font-family: "Inter", sans-serif;
     line-height: 1.6;
     font-size: 40px;
     color: #222
@@ -602,7 +565,7 @@ h3,
 .h3 {
     letter-spacing: -1px;
     font-weight: normal;
-    font-family: "colfax-bold", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     color: #000000;
 }
@@ -614,14 +577,14 @@ form .group input,
 form .group label,
 a {
     letter-spacing: -0.3px;
-    font-family: "colfax-light", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 2;
     color: #222
 }
 
 a {
-    font-family: "colfax-medium", sans-serif
+    font-family: "Inter", sans-serif
 }
 
 a:hover {
@@ -642,7 +605,7 @@ a:hover {
 
 body {
     background: #f2f3f5;
-    font-family: "colfax-medium", sans-serif;
+    font-family: "Inter", sans-serif;
     text-align: center;
     color: #222
 }
@@ -667,7 +630,7 @@ button {
     letter-spacing: -0.5px;
     display: inline-block;
     border-radius: 100px;
-    font-family: "colfax-medium", sans-serif;
+    font-family: "Inter", sans-serif;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     text-align: center;
@@ -1326,7 +1289,7 @@ button {
 }
 
 .modal .modal-close span {
-    font-family: "colfax-light", sans-serif;
+    font-family: "Inter", sans-serif;
     pointer-events: none;
     letter-spacing: 1px;
     -webkit-transition: all 0.4s ease;
@@ -1569,22 +1532,19 @@ form .button {
 }
 
 @font-face {
-    font-family: 'colfax-light';
-    src: url("../fonts/colfax-light.woff") format("woff"), url("../fonts/colfax-light.woff2") format("woff2");
+    font-family: 'Inter';
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'colfax-medium';
-    src: url("../fonts/colfax-medium.woff") format("woff"), url("../fonts/colfax-medium.woff2") format("woff2");
+    font-family: 'Inter';
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'colfax-bold';
-    src: url("../fonts/colfax-bold.woff") format("woff"), url("../fonts/colfax-bold.woff2") format("woff2");
+    font-family: 'Inter';
     font-weight: normal;
     font-style: normal
 }
@@ -1753,7 +1713,7 @@ h2,
 .h2 {
     letter-spacing: -1px;
     font-weight: normal;
-    font-family: "colfax-light", sans-serif;
+    font-family: "Inter", sans-serif;
     line-height: 1.6;
     font-size: 40px;
     color: #222
@@ -1768,7 +1728,7 @@ h3,
 .h3 {
     letter-spacing: -1px;
     font-weight: normal;
-    font-family: "colfax-bold", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     color: #000000;
 }
@@ -1777,14 +1737,14 @@ p,
 .p,
 a {
     letter-spacing: -0.3px;
-    font-family: "colfax-light", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 2;
     color: #222
 }
 
 a {
-    font-family: "colfax-medium", sans-serif
+    font-family: "Inter", sans-serif
 }
 
 a:hover {
