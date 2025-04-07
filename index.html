@@ -1,217 +1,173 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <title>Maintenance Ruby on Rails à prix fixe sans engagement, 100% en France</title>
-    <meta name="title" content="Maintenance Ruby on Rails à prix fixe sans engagement, 100% en France">
-    <meta name="description" content="Service de Maintenance Ruby on Rails à prix fixe mensuel et sans engagement par une équipe d'experts - interventions pour bugfixes, mises à jour, dette technique">
-    <meta itemprop="description" content="Service de Maintenance Ruby on Rails à prix fixe mensuel et sans engagement par une équipe d'experts - interventions pour bugfixes, mises à jour, dette technique">
-    <meta name="application-name" content="RubyMaintenance.com">
-    <meta name="keywords" content="ruby on rails, ruby, rails, agence, maintenance, prix fixe, france, lyon, lille, paris, bugfix, développement">
-    <meta name="author" content="contact@rubymaintenance.com">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://rubymaintenance.com">
-    <meta property="og:title" content="Maintenance Ruby on Rails à prix fixe sans engagement, 100% en France">
-    <meta property="og:description" content="Service de Maintenance Ruby on Rails à prix fixe mensuel et sans engagement par une équipe d'experts - interventions pour bugfixes, mises à jour, dette technique">
-    <!--<meta property="og:image" content="images/rubycosmic4.webp">-->
-    <link href="images/rubymaintenance_logo.png" rel="apple-touch-icon">
-    <link href="images/rubymaintenance_logo.png" rel="shortcut icon">
-    <link rel="icon" type="image/x-icon" href="images/rubymaintenance_logo.png">
-
-    <link href="css/styles.css" rel="stylesheet">
-  </head>
-
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maintenance et migration Ruby on Rails vers cloud souverain.">
+  <title>rubymaintenance.com – Maintenance & Migration Rails</title>
+  <link href="https://rsms.me/inter/inter.css" rel="stylesheet">
+  <style>
+    :root {
+      --color-primary: #0284c7;
+      --color-secondary: #0ea5e9;
+      --color-bg: #f9fafb;
+      --color-dark: #111827;
+      --color-light: #ffffff;
+      --radius: 14px;
+      --gradient: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--color-bg);
+      color: var(--color-dark);
+      line-height: 1.6;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--color-light);
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav .logo {
+      font-weight: 800;
+      color: var(--color-primary);
+      font-size: 1.25rem;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      font-weight: 600;
+      color: var(--color-dark);
+      transition: color 0.2s;
+    }
+    nav ul li a:hover {
+      color: var(--color-primary);
+    }
+    header {
+      background: var(--gradient);
+      color: var(--color-light);
+      text-align: center;
+      padding: 5rem 2rem;
+      position: relative;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+    header p {
+      font-size: 1.25rem;
+      margin-top: 1rem;
+      opacity: 0.95;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .card {
+      background-color: var(--color-light);
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 2rem;
+      background-image: var(--gradient);
+      color: white;
+      padding: 0.85rem 2rem;
+      border-radius: var(--radius);
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 4px 12px rgba(2,132,199,0.3);
+    }
+    footer {
+      background-color: var(--color-dark);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
 <body>
-  <div class="content">
-    <a href="index.html" class="logo"><img src="images/rubymaintenance_logo.png" alt="logo"/></a>
-    <div class="hero">
-      <h1 class="title">Maintenance à prix fixe Ruby on Rails</h1>
-      <h1 class="title shift clip">
-        <span class="word-shift">
-          <b class="is-visible">Intervention sur Bugs en production</b>
-          <b>Mises à jour du framework</b>
-          <b>Mises à jour de gems</b>
-          <b>Mises à jour de Sécurité</b>
-          <b>Dette technique</b>
-          <b>Configuration cloud</b>
-        </span>
-      </h1>
-      <button class="button white"><a href="mailto:contact@rubymaintenance.com">Je demande un devis</a></button>
-      <p class="subtitle">À partir de 600 € par mois sans engagement<img src="images/rails.png" alt="logo Ruby on Rails"/></p>
-    </div>
-    <div class="screen-wrapper">
-      <img src="images/rubycosmic4.webp" class="screen" alt="screen"/>
-    </div>
-    <section class="section section-features">
-      <h2 class="title">Simplifiez la gestion de vos apps Ruby on Rails : vos contraintes sont nos priorités</h1>
-      <div class="features">
-        <img src="images/overlay-left.svg" class="overlay-left hide-mobile" alt="overlay"/>
-        <img src="images/overlay-right.svg" class="overlay-right hide-mobile" alt="overlay"/>
-        <img src="images/overlay-top.svg" class="overlay-top show-mobile" alt="overlay"/>
-        <img src="images/overlay-bottom.svg" class="overlay-bottom show-mobile" alt="overlay"/>
-        <div class="row donts">
-          <div class="feature"><i class="icon" data-feather="x"></i> Bugs en production</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Absences de développeurs internes</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Freelances trop chers</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Crashes</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Bugs pendant vos vacances</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Erreurs H12 Heroku</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Framework pas à jour</div>
-          <div class="feature"><i class="icon" data-feather="x"></i>Failles de sécurité</div>
-          <!-- Repeat-->
-          <div class="feature"><i class="icon" data-feather="x"></i> Bugs en production</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Absences de développeurs internes</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Freelances trop chers</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Crashes</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Bugs pendant vos vacances</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Erreurs H12 Heroku</div>
-          <div class="feature"><i class="icon" data-feather="x"></i> Framework pas à jour</div>
-          <div class="feature"><i class="icon" data-feather="x"></i>Failles de sécurité</div>
-        </div>
-        <div class="row dos">
-          <div class="feature"><i class="icon" data-feather="check"></i>Ruby on Rails à jour</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Monitoring</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Tests automatiques de vos interfaces</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Délais d'interventions sur bugfixes</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Réduction de la dette technique</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Focus sur votre coeur de métier</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Pricing clair</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Amélioration continue</div>
-          <!-- Repeat-->
-          <div class="feature"><i class="icon" data-feather="check"></i>Ruby on Rails à jour</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Monitoring</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Tests automatiques de vos interfaces</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Délais d'interventions sur bugfixes</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Réduction de la dette technique</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Focus sur votre coeur de métier</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Pricing clair</div>
-          <div class="feature"><i class="icon" data-feather="check"></i>Amélioration continue</div>
-        </div>
-      </div>
-      <!-- <p>If you’re looking for an email client with more features, try <a href="">these</a>.</p> -->
-    </section>
-    <section class="section section-providers">
-      <h2 class="title">Avec vos outils clouds préférés</h2>
-        <style>
-            .myslider {
-                width: 100%;
-                background-color: #F2F3F5;
-                overflow: hidden;
-                position: relative;
-                height: 400px;
-            }
-            .myslides {
-                display: flex;
-                width: 100%;
-                animation: slide 20s infinite linear;
-            }
-            .myslide {
-                flex: 0 0 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            .myslide img {
-                max-height: 200px; /* Adjust based on slider height to maintain aspect ratio */
-                max-width: 100%;
-            }
-            @keyframes slide {
-                0% { transform: translateX(0); }
-                14% { transform: translateX(0); }
-                17% { transform: translateX(-100%); }
-                31% { transform: translateX(-100%); }
-                34% { transform: translateX(-200%); }
-                48% { transform: translateX(-200%); }
-                51% { transform: translateX(-300%); }
-                65% { transform: translateX(-300%); }
-                68% { transform: translateX(-400%); }
-                82% { transform: translateX(-400%); }
-                85% { transform: translateX(-500%); }
-                100% { transform: translateX(-500%); }
-            }
-        </style>
+  <nav>
+    <div class="logo">rubymaintenance.com</div>
+    <ul>
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#migration">Migration Heroku</a></li>
+      <li><a href="https://vyte.in/pak/15">📅 Prendre rendez-vous</a></li>
+    </ul>
+  </nav>
 
-      <div class="myslider">
-          <div class="myslides">
-              <div class="myslide"><img src="images/herokulogo.png" alt="Heroku"/></div>
-              <div class="myslide"><img src="images/scalingo.png" alt="Scalingo"/></div>
-              <div class="myslide"><img src="images/aws.png" alt="Amazon Web Services"/></div>
-              <div class="myslide"><img src="images/datadog.png" alt="Datadog"/></div>
-              <div class="myslide"><img src="images/rollbar.png" alt="Rollbar"/></div>
-              <div class="myslide"><img src="images/que.png" alt="Que.rb"/></div>
-              <div class="myslide"><img src="images/sidekiq.png" alt="Sidekiq"/></div>
-          </div>
-      </div>
+  <header>
+    <h1>Maintenance & Cloud souverain pour vos apps Rails</h1>
+    <p>Des migrations fluides, des applications maintenues, des équipes libérées.</p>
+  </header>
 
-    </section>
-    <section class="section imagery">
-      <h1 class="title">Faites une demande de devis, Spots limités pour une qualité de service assurée !</h1>
-
-      <button class="button white"><a href="mailto:contact@rubymaintenance.com"> Je fais une demande de devis</a></button>
-        <p class="subtitle">2/7 Spots disponibles</p>
-
-      <img src="images/overlay-bottom.svg" class="overlay-bottom hide-mobile" alt="overlay"/>
-      <div class="zero-slider">
-        <div class="slide"><img src="images/screen-illo-2.png" alt="esprit_tranquille"/></div>
-        <div class="slide"><img src="images/screen-illo-3.png" alt="esprit_tranquille"/></div>
-        <div class="slide"><img src="images/screen-illo-4.png" alt="esprit_tranquille"/></div>
-        <div class="slide"><img src="images/screen-illo-5.png" alt="esprit_tranquille"/></div>
+  <main class="container">
+    <section class="section" id="accueil">
+      <h2>Maintenance Ruby on Rails</h2>
+      <div class="card">
+        <p>Confiez-nous la maintenance technique de votre application Rails : mises à jour de sécurité, support framework, supervision applicative, patchs correctifs.</p>
+        <p>Nous assurons la continuité de vos services, la stabilité de votre stack, et vous libérons de la dette technique.</p>
       </div>
     </section>
-    <footer class="footer">
-      <p>&copy; RubyMaintenance 2024</p>
-      <p>Maintenance Ruby on Rails assurée par une équipe d'experts en France, par un EI Lyonnais et une SAS Lilloise & Parisienne. Une seule facture mensuelle.</p>
 
-    </footer>
-    </div>
-  </div>
-  <script src="./js/jquery/3.4.1/jquery.min.js"></script>
-<script src="js/scripts.min.js"></script>
-<script>
+    <section class="section">
+      <h2>Ce que nous prenons en charge</h2>
+      <div class="card">
+        <ul>
+          <li>➡️ Mise à jour de Ruby, Rails, et des gems critiques</li>
+          <li>➡️ Revue de sécurité et patchs CVE</li>
+          <li>➡️ Surveillance de production et alertes</li>
+          <li>➡️ Assistance sur bugs ou lenteurs</li>
+        </ul>
+      </div>
+    </section>
 
-  $(function(){
+    <section class="section">
+      <h2 id="migration">Migration Heroku vers Cloud européen</h2>
+      <div class="card">
+        <p>Marre de Heroku ? Nous migrons vos apps vers Scalingo, OVH, Infomaniak ou votre propre infrastructure avec un accompagnement complet.</p>
+        <ul>
+          <li>🔁 Audit de votre stack actuelle</li>
+          <li>🚀 Déploiement CI/CD</li>
+          <li>🔐 Sécurité, secrets et base de données</li>
+          <li>📦 Suivi post-migration et support</li>
+        </ul>
+      </div>
+    </section>
 
-    // Provider card slider
-    $('.slider').flickity({
-      pauseAutoPlayOnHover: false,
-      prevNextButtons: false,
-      cellAlign: 'center',
-      draggable:  false,
-      freeScroll: false,
-      wrapAround: true,
-      pageDots: false,
-      autoPlay: 3000,
-    });
+    <section class="section" style="text-align:center">
+      <h2>Prendre contact</h2>
+      <a href="https://vyte.in/pak/15" class="cta" style="display:inline-flex;align-items:center;gap:0.5rem">📅 Prendre rendez-vous</a>
+    </section>
+  </main>
 
-    // Imbox zero slider
-    $('.zero-slider').flickity({
-      pauseAutoPlayOnHover: false,
-      prevNextButtons: false,
-      cellAlign: 'center',
-      freeScroll: false,
-      wrapAround: false,
-      draggable: false,
-      pageDots: false,
-      autoPlay: 3000,
-      fade: true,
-    });
-
-    // Feather icons
-    feather.replace()
-
-    // ScrollReveal
-    ScrollReveal().reveal('.hero, .title, .screen, .features, .cards, .zero-slider', {
-      distance: '40px',
-      duration: 2000,
-      mobile: false,
-      reset: false,
-      opacity: 0
-    });
-
-  });
-</script>
-
+  <footer>
+    &copy; 2025 rubymaintenance.com — Maintenance & Migration Rails, souverain et fiable.
+  </footer>
 </body>
-
 </html>
